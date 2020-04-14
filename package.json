@@ -1,18 +1,33 @@
 {
   "name": "hello-cicd",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "run": "nodemon app.js",
+    "start": "node app.js",
     "test": "mocha 'test/test.js'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "linebot": "^1.5.3"
   },
   "devDependencies": {
     "mocha": "^7.1.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worksB-collab/hello-cicd.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/worksB-collab/hello-cicd/issues"
+  },
+  "homepage": "https://github.com/worksB-collab/hello-cicd#readme",
+  "description": ""
 }
